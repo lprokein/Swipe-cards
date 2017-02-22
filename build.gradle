@@ -6,9 +6,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.1.2'
-
-
+        classpath 'com.android.tools.build:gradle:2.2.3'
     }
 }
 
@@ -25,10 +23,10 @@ ext {
     versionCode = 1051
     versionName = "1.05"
 
-    minSdkVersion = 15              // 最低支持的 Android 版本
-    targetSdkVersion = 22           // 目标 Android 版本
-    compileSdkVersion = 23          // 编译使用的 Android SDK 版本
-    buildToolsVersion = "23.0.1"    // 编译工具版本
+    minSdkVersion = 15
+    targetSdkVersion = 25
+    compileSdkVersion = 25
+    buildToolsVersion = "25.0.2"
 
     abortOnError = false            // Lint
 
